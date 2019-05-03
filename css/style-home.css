@@ -67,7 +67,7 @@ button {
   font-size: 0.875rem;
   text-rendering: auto;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 25px;
   flex-direction: row-reverse;
 }
 
@@ -97,6 +97,11 @@ button {
   transform: translate(0);
   background: transparent;
   color: #999;
+}
+
+.btn a {
+  color: #999;
+  text-decoration: none;
 }
 
 input {
